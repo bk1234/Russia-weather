@@ -1,0 +1,42 @@
+<DOCTYPE! html>
+	<html>
+		<head>
+				<script src="http://maps.googleapis.com/maps/api/js"></script>
+					<script>
+			function initialize() {
+			  var mapProp = {
+				center:new google.maps.LatLng(66.478321,71.4219247),
+				zoom:5,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script> 
+					 <title>The Weather in Russia</title>
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1">
+			  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+			  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+				<div class="container">
+     	
+					
+			  <div class="jumbotron">
+				<h1>The weather in Russia</h1>      
+				<p>Let's look at more<p>
+			  </div>
+				<center><img src="http://russia-insider.com/sites/insider/files/Russia-in-economic-jeopardy.jpg"></img></center>
+				
+				
+				<center><div id="googleMap" style="width:500px;height:380px;"></div></center>
+				<div class="container"><div class="jumbotron">
+    <h1>More</h1> 
+	<p>Overall, The weather in Russia is on and off. It it can change quickly. It is a big country. 
+		<center><img src="http://kids.nationalgeographic.com/content/dam/kids/photos/Countries/Q-Z/russia-map.gif"> <img><center>
+		
+		<p> this is russia's longitude and latitude: 66.478321,71.4219247.
+		</body>
+	</html>
